@@ -1,0 +1,57 @@
+.full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 130px;
+    background-image: url(../../Img/fondoDetalle2.jpg);
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.image {
+    width: 50%;
+    height: 90%;
+    margin-left: 150px;
+    border-radius:20px;
+}
+
+.image img {
+    width: 80%;
+    border: solid 3px rgb(65, 3, 3);
+    border-radius:20px;
+}
+
+.details {
+    width: 50%;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+
+.text {
+    font-size: xx-large;
+}
+
+.button {
+    font-family: 'Press Start 2P';
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(156, 140, 212);;
+  }
+  
+  .button:hover {
+    transition: all 0.8s ease;
+    color: seashell;
+      background : rgb(79,82,255);
+      cursor: pointer;
+      font-size: 125%;
+      text-shadow: 0 0 5px rgb(255, 255, 255),
+  };

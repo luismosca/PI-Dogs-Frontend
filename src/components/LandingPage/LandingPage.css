@@ -1,0 +1,24 @@
+
+.myButton{
+      position: absolute;
+      left:45%;
+      top:45%;
+ }
+
+.MyImage button {
+    font-family: 'Press Start 2P';
+    font-size: x-large;
+    height: 60px;
+    width: 180px;
+    border-radius: 5px;
+    border: 3px solid rgba(63, 16, 173, 0.336);
+    background-color: rgb(146, 227, 241);
+    background: linear-gradient(90deg,rgb(160, 188, 241) 10%, #fff 100%);
+}
+.MyImage {
+    background-image: url(../../Img/perrosPage.jpg);
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}

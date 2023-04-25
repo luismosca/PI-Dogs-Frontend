@@ -1,0 +1,15 @@
+html option {
+  /* Style for unselected options */
+  color: #333 !important;  /* Override the default text color */
+  background-color: #fff !important;  /* Override the default background color */
+}
+
+html option.selected {
+  /* Style for selected options */
+  color: #fff !important;  /* Override the default text color */
+  background-color: #333 !important;  /* Override the default background color */
+}
+
+option:checked {
+  box-shadow: 0 0 10px 100px #333 inset;
+}

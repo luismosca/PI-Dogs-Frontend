@@ -1,0 +1,46 @@
+.paginado {
+    position:static;
+	bottom: 0;
+	background: gray;
+    background-image: url(../../Img/fondoDetalle2.jpg);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+    list-style: none;
+}
+
+.paginado button{
+    background: rgb(44, 178, 231);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.item button:hover {
+    cursor: pointer;
+    font-size: 100%;
+    text-shadow: 0 0 5px #fff,
+}
+
+.pag-actual {
+    background-color: rgb(44, 178, 231);;
+    width: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+}
+
+.sig-pag, .cant-paginas, .ant-pag {
+    display: flex;
+    align-items: center;
+}
+
+.sig-pag button, .ant-pag button {
+    border-radius: 6px;
+    padding: 5px;
+}

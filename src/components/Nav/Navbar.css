@@ -1,0 +1,35 @@
+.navbar-div {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        background: rgb(34, 30, 30);
+        background-image: url(../../Img/fondoDetalle2.jpg);
+}
+
+.navbar-div1 {
+        display: flex;
+}
+
+.navbar-div button{
+        font-family: 'Press Start 2P';
+        padding: 10px;
+        margin: 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(111, 207, 236);;
+}
+
+.navbar-div button:hover {
+        background-color: black;
+        color:rgb(111, 207, 236);
+}
+
+#game-search {
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+}

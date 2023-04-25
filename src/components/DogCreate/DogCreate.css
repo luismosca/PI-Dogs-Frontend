@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.form{
+    border: 1px solid rgb(105, 129, 0);
+    border-radius: 20px;
+    width: 650px;
+    background-color: rgb(111, 207, 236);
+    padding: 5px;
+    margin-bottom: 120px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 159, 0.68);
+    margin-left: 360px;
+}
+
+.container-dog {
+    height: 100vh;
+    background-image: url(../../Img/fondoDetalle2.jpg);
+
+}
+.divTitles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label{
+    width: 145px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+}
+
+.label:hover{
+    cursor: pointer;
+}
+
+.checkboxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+}
+
+.tempdivs{
+    display: inline-block;
+}
+
+.temperament-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    
+}
+
+.perro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:center;
+    align-content:stretch;
+}
+
+
+.checks input:hover {
+    cursor: pointer;
+}
+
+.imagediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.imagein{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+}
+
+.app {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 158, 219);
+  }
+
+.dropdown-container {
+    width: 300px;
+    background-color: rgb(82, 158, 219);
+ }

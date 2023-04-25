@@ -1,0 +1,32 @@
+.container-about {
+    margin-top: 40px;
+    font-family: 'Press Start 2P';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(26, 4, 124);
+    border-radius: 20px;
+    height: 300px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.088);
+    padding: 12px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 159, 0.68);
+    margin-left: 440px;
+}
+
+.container-about h1 {
+    font-size: larger;
+    color: rgb(4, 31, 54);
+    
+}
+
+.fondo {
+    height: 100vh;
+    background-image: url(../../Img/fondoDetalle2.jpg);
+    /* background-size:auto;
+    margin-bottom: 0% */
+    ;
+}
